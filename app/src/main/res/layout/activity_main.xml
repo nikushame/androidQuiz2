@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="105dp"
+        android:layout_height="47dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Delete"
+        android:textColor="#9B0AA0"
+        tools:layout_editor_absoluteX="278dp"
+        tools:layout_editor_absoluteY="149dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="105dp"
+        android:layout_height="46dp"
+        android:ellipsize="none"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Json"
+        android:textColor="#9B0AA0"
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="149dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="98dp"
+        android:layout_height="47dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Add"
+        android:textColor="#9B0AA0"
+        tools:layout_editor_absoluteX="167dp"
+        tools:layout_editor_absoluteY="149dp" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="411dp"
+        android:layout_height="731dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="E-mail"
+        android:textColor="#0B90CE"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="36dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textColor="#0B90CE"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="89dp" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="336dp"
+        android:layout_height="44dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="28dp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="123dp"
+        tools:layout_editor_absoluteY="52dp">
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="338dp"
+        android:layout_height="44dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="81dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
